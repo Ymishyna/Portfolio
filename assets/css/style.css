@@ -7,3 +7,41 @@
 body {
     background-color: #d9dcd6;
 }
+
+header {
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(234, 162, 241);
+    color: #3136ba;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 100px;
+    float: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
