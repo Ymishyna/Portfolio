@@ -10,9 +10,9 @@ body {
 
 header {
     padding: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(234, 162, 241);
-    color: #3136ba;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(128, 151, 136);
+    color: #000000;
 }
 
 h1 {
@@ -47,10 +47,10 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 270px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/portfolio.jpeg");
-    background-size: 100%;
+    background-image: url("../images/12345.jpeg");
+    background-size: cover;
     background-position: center;
 }
