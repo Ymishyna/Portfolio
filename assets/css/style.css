@@ -42,9 +42,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
 .hero {
     height: 500px;
@@ -62,16 +59,37 @@ main {
 }
 
 section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #76b6eb;
+    color: #ffffff;
 
 }
 
 section img {
+    max-height: 280px;
 
 }
 
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+
+section p {
+    font-size: 20px;
+}
+
+.highlighted-text {
+    font-weight: bolder;
+  }
+
+#contact-me{
+    display: flex;
+
 }
 
 /* Tablets - header changes color */
