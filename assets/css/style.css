@@ -5,23 +5,32 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: rgb(226, 221, 226);
 }
 
 header {
-    padding: 20px;
+    height: 140px;
+    padding: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(226, 221, 226);
-    color: #10381e;
+    color: #f2f8f4;
 }
 
 h1 {
-    display: inline-block;
-    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #10381e;
+    position: absolute;
+    background-color:  #a4cae9;
+    /* margin-top: 30px; */
+    /* font-size: 50px; */
 }
 
 nav {
-    padding-top: 15px;
+    padding-top: 70px;
     margin-right: 100px;
     display: flex;
     justify-content: right;
@@ -36,11 +45,12 @@ ul {
 li {
     display: inline-block;
     margin-left: 25px;
+    margin-top: 0px;
 }
 
 a {
     color: #a66363;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -53,12 +63,32 @@ a {
     background-position: center;
 }
 
+.hero-text {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+    box-sizing: border-box;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #10381e;
+    margin: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #f7fbf8;
+    text-align: right;
+    font-size: 24px;
+    background-color:  #a4cae9;
+}
+
+
+
 section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #76b6eb;
+    background-color: #a4cae9;
     color: #ffffff;
 
 }
