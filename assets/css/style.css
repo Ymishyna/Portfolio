@@ -23,7 +23,8 @@ h1 {
 nav {
     padding-top: 15px;
     margin-right: 100px;
-    float: right;
+    display: flex;
+    justify-content: right;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
 }
@@ -52,12 +53,6 @@ a {
     background-position: center;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -68,19 +63,53 @@ section {
 
 }
 
+#about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #10381e;
+    margin: 50px;
+}
+
+
+
 section img {
     max-height: 280px;
+    border-radius: 0 10% 0 10%;
 
 }
 
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    color: #a66363;
 }
 
 
 section p {
     font-size: 20px;
+}
+
+#work {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #10381e;
+    margin: 50px;
+}
+
+#contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #10381e;
+     margin: 50px;
 }
 
 .highlighted-text {
