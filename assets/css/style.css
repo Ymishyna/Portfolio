@@ -11,8 +11,8 @@ body {
 header {
     padding: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(128, 151, 136);
-    color: #000000;
+    background-color: rgb(226, 221, 226);
+    color: #10381e;
 }
 
 h1 {
@@ -38,7 +38,7 @@ li {
 }
 
 a {
-    color: #ffffff;
+    color: #a66363;
     text-decoration: none;
 }
 
@@ -47,10 +47,10 @@ p {
 }
 
 .hero {
-    height: 270px;
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/12345.jpeg");
+    background-image: url("../images/2.png");
     background-size: cover;
     background-position: center;
 }
