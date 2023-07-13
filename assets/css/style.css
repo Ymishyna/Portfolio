@@ -15,7 +15,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 4vh14 padding: 15px;
+    height: 4vh14; 
+    padding: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(226, 221, 226);
     color: #f2f8f4;
