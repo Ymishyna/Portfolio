@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+ 
 }
 
 body {
     background-color: rgb(226, 221, 226);
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -42,7 +43,10 @@ a {
     color: #a66363;
     text-decoration: underline;
 }
-
+/* 
+p {
+    margin: 10px 20px;
+} */
 
 .hero {
     height: 60vh;
@@ -50,7 +54,8 @@ a {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/2.png");
-    background-size: cover;
+    background-size: 170%;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -93,7 +98,13 @@ section {
 }
 
 section > div {
-    flex: 0 0 77%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 70%;
+    padding: 8px 10px;
+    margin-right: 20%;
+    margin-left: 2%;
 }
 
 /* #about-me {
@@ -109,7 +120,7 @@ section > div {
 
 
 section img {
-    margin-left: 20px;
+    margin-left: 10px;
     max-height: 280px;
     border-radius: 0 10% 0 10%;
 
@@ -123,9 +134,20 @@ section h2 {
 
 
 section p {
-    font-size: 20px;
+    margin-right: 20%;
+    margin-left: 2%;
+    font-size: 1.0em;
+    /* font-size: 20px; */
 }
 
+.about-div {
+    display: inline-block;
+}
+    /* flex-direction: row;
+
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between;
+} */ 
 
 .work-container {
     display: flex;
@@ -150,17 +172,6 @@ section p {
     max-height: 400px;
     flex-basis: 100%;
 }
-
-
-/* #contact-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-    border: 3px solid #10381e;
-     margin: 50px;
-} */
 
 .highlighted-text {
     font-weight: bolder;
