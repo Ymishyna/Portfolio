@@ -79,7 +79,6 @@ section {
     border: 3px solid #10381e;
     margin: 30px;
     height: auto;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #a4cae9;
     color: #ffffff;
@@ -144,6 +143,7 @@ section p {
     flex-basis: 100%;
 }
 
+
 .highlighted-text {
     font-weight: bolder;
 }
@@ -171,6 +171,19 @@ section p {
 
 .Project5 {
     background-image: url("../images/Project5.png");
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 18px;
+    text-decoration: underline;
+    color:#a66363;
 }
 
 /* Tablets - header changes color */
