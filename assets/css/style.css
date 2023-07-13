@@ -15,7 +15,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 4vh14; 
     padding: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(226, 221, 226);
@@ -23,9 +22,13 @@ header {
 }
 
 h1 {
-    padding: 20px;
     border: 3px solid #10381e;
     background-color: #a4cae9;
+    padding: 2%;
+    margin: 0;
+    font-size: 3vw;
+    line-height: 1;
+    box-shadow: 10px 10px 2px 1px rgba(44, 44, 64, 0.2);
 }
 
 
@@ -45,17 +48,44 @@ a {
 }
 
 .hero {
-    height: 60vh;
-    padding-bottom: 20px;
-    width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/2.png");
-    background-size: 170%;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    min-height: 60vh;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
 }
 
-.hero-text {
+
+    /* height: 60vh;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-bottom: 25px; */
+    /* background-image: url("../images/2.png"); */
+    /* background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.hero div {
+    flex: 0 0 90%;
+}
+
+
+.hero h2 {
+    background-color: #d3b2b2;
+    margin: 0;
+    padding: 5px 10px;
+    line-height: 2.3rem;
+    display: inline;
+    box-shadow: 10px 10px 2px 1px rgba(44, 44, 64, 0.2);
+}
+/* .hero h2 {
     box-sizing: border-box;
     align-items: center;
     padding: 20px;
@@ -68,9 +98,18 @@ a {
     text-align: right;
     font-size: 24px;
     background-color: #a4cae9;
+} */
+
+.JL {
+    font-style: italic;
 }
 
-section {
+main {
+    max-width: 89%;
+    margin: 20px auto 45px auto;
+}
+
+.sectionArea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -85,51 +124,51 @@ section {
 
 }
 
-section>div {
+
+
+/* this is using the flexbox properties for flexing and alignment, and responsive properties act correctly */
+.sectionArea>h2 {
+    /* adding the flex basis for h2 to share 20% of the row w/ the div, everything lines up exactly*/
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 5px solid #10381e;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+/* this will impact all divs under section parent */
+.sectionArea>div {
+    flex: 0 0 77%;
+}
+
+/* targeting only one div in the about  - want the img and p on the same row*/
+.aboutMe {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 0 0 70%;
-    padding: 8px 10px;
-    margin-right: 20%;
-    margin-left: 2%;
 }
 
-section img {
-    margin-left: 10px;
+.aboutMe img {
+    /* margin-left: 2px; */
+    margin-right: 20px;
     max-height: 280px;
-    border-radius: 0 10% 0 10%;
-
+    border-radius: 60px;
+    box-shadow: 10px 10px 2px 1px rgba(44, 44, 64, 0.2);
 }
 
-section h2 {
-    margin: 5px 5px 20px 10px;
-    font-size: 36px;
-    color: #a66363;
+.aboutPTag {
+    display: flex;
 }
 
-
-section p {
-    margin-right: 20%;
-    margin-left: 2%;
-    font-size: 1.2em;
-}
-
-.about-div {
-    display: inline-block;
-}
-
-.work-container {
+.workContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .work-box {
     border: 3px solid #10381e;
     background-color: #a4cae9;
-    color: #f2f8f4;
+    color: #000000;
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
@@ -143,14 +182,15 @@ section p {
     flex-basis: 100%;
 }
 
-
-.highlighted-text {
-    font-weight: bolder;
-}
-
-#contact-me {
-    display: flex;
-
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black;
 }
 
 .Project1 {
@@ -173,6 +213,15 @@ section p {
     background-image: url("../images/Project5.png");
 }
 
+
+.highlighted-text {
+    font-weight: bolder;
+}
+
+.contactLinks {
+    margin-top: 3%;
+}
+
 footer {
     padding: 30px;
     clear: both;
@@ -183,26 +232,26 @@ footer {
 footer h3 {
     font-size: 18px;
     text-decoration: underline;
-    color:#a66363;
+    color: #a66363;
 }
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
-        background: #772014;
+        background: #f5f48f;
     }
 }
 
 /* Large smartphones - navbar changes color */
 @media screen and (max-width: 768px) {
     nav {
-        background-color: #bb8588;
+        background-color: #f0b7fd;
     }
 }
 
 /* Small smartphones - image placeholders change color */
 @media screen and (max-width: 576px) {
     .hero {
-        background-color: #8ac4ff;
+        background-color: #f2f4f3;
     }
 }
