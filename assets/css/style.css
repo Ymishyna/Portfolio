@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
- 
+
 }
 
 body {
@@ -15,9 +15,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 17vh;
-    padding: 15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 4vh14 padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(226, 221, 226);
     color: #f2f8f4;
 }
@@ -25,16 +24,16 @@ header {
 h1 {
     padding: 20px;
     border: 3px solid #10381e;
-    background-color:  #a4cae9;
+    background-color: #a4cae9;
 }
-   
+
 
 nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 4% 20px 2px 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
 }
 
@@ -43,10 +42,6 @@ a {
     color: #a66363;
     text-decoration: underline;
 }
-/* 
-p {
-    margin: 10px 20px;
-} */
 
 .hero {
     height: 60vh;
@@ -60,9 +55,6 @@ p {
 }
 
 .hero-text {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-start; */
     box-sizing: border-box;
     align-items: center;
     padding: 20px;
@@ -74,10 +66,8 @@ p {
     color: #f7fbf8;
     text-align: right;
     font-size: 24px;
-    background-color:  #a4cae9;
+    background-color: #a4cae9;
 }
-
-
 
 section {
     display: flex;
@@ -88,16 +78,14 @@ section {
     border: 3px solid #10381e;
     margin: 30px;
     height: auto;
-    /* margin-bottom: 20px; */
-    /* padding: 50px; */
-    /* height: 300px; */
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #a4cae9;
     color: #ffffff;
 
 }
 
-section > div {
+section>div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -106,18 +94,6 @@ section > div {
     margin-right: 20%;
     margin-left: 2%;
 }
-
-/* #about-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-    border: 3px solid #10381e;
-    margin: 50px;
-} */
-
-
 
 section img {
     margin-left: 10px;
@@ -136,22 +112,16 @@ section h2 {
 section p {
     margin-right: 20%;
     margin-left: 2%;
-    font-size: 1.0em;
-    /* font-size: 20px; */
+    font-size: 1.2em;
 }
 
 .about-div {
     display: inline-block;
 }
-    /* flex-direction: row;
-
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between;
-} */ 
 
 .work-container {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
@@ -175,50 +145,50 @@ section p {
 
 .highlighted-text {
     font-weight: bolder;
-  }
+}
 
-#contact-me{
+#contact-me {
     display: flex;
 
 }
 
 .Project1 {
-    background-image: url("../images/2.png") ;
+    background-image: url("../images/Project1.jpeg");
 }
 
 .Project2 {
-    background-image: url("../images/2.png") ;
+    background-image: url("../images/Project2.jpeg");
 }
 
 .Project3 {
-    background-image: url("../images/2.png") ;
+    background-image: url("../images/Project3.png");
 }
 
 .Project4 {
-    background-image: url("../images/2.png") ;
+    background-image: url("../images/Project4.jpeg");
 }
 
 .Project5 {
-    background-image: url("../images/2.png") ;
+    background-image: url("../images/Project5.png");
 }
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
     header {
-      background: #772014;
+        background: #772014;
     }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
     nav {
-      background-color: #bb8588;
+        background-color: #bb8588;
     }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
     .hero {
-      background-color: #8ac4ff;
+        background-color: #8ac4ff;
     }
-  }
+}
