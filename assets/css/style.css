@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+/* Header */
 header {
     display: flex;
     flex-direction: row;
@@ -46,6 +47,7 @@ a {
     text-decoration: underline;
 }
 
+/* Pictute */
 .hero {
     background-image: url("../images/2.png");
     background-size: cover;
@@ -60,22 +62,11 @@ a {
     text-align: right;
 }
 
-
-/* height: 60vh;
-    padding-bottom: 20px;
-    width: 100%;
-    margin-bottom: 25px; */
-/* background-image: url("../images/2.png"); */
-/* background-size: 170%;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
 .hero div {
     flex: 0 0 90%;
 }
 
-
+/* Quote */
 .hero h2 {
     background-color: #d3b2b2;
     margin: 0;
@@ -84,21 +75,6 @@ a {
     display: inline;
     box-shadow: 10px 10px 2px 1px rgba(44, 44, 64, 0.2);
 }
-
-/* .hero h2 {
-    box-sizing: border-box;
-    align-items: center;
-    padding: 20px;
-    border: 3px solid #10381e;
-    margin: 80px 49px 10px 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: #f7fbf8;
-    text-align: right;
-    font-size: 24px;
-    background-color: #a4cae9;
-} */
 
 .JL {
     font-style: italic;
@@ -109,6 +85,7 @@ main {
     margin: 20px auto 45px auto;
 }
 
+/* Section */
 .sectionArea {
     display: flex;
     flex-direction: row;
@@ -124,11 +101,7 @@ main {
 
 }
 
-
-
-/* this is using the flexbox properties for flexing and alignment, and responsive properties act correctly */
 .sectionArea>h2 {
-    /* adding the flex basis for h2 to share 20% of the row w/ the div, everything lines up exactly*/
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -142,21 +115,19 @@ main {
     flex: 0 0 77%;
 }
 
-/* targeting only one div in the about  - want the img and p on the same row*/
 .aboutMe {
     display: flex;
 }
 
 .aboutMe img {
-    /* margin-left: 2px; */
     margin-right: 20px;
     max-height: 280px;
     border-radius: 60px;
     box-shadow: 10px 10px 2px 1px rgba(44, 44, 64, 0.2);
 }
 
-.aboutPTag {
-    display: flex;
+.aboutPTag p {
+    padding: 0 15px;
 }
 
 .workContainer {
@@ -175,8 +146,12 @@ main {
     display: flex;
     align-items: flex-end;
     margin: 0.5em;
+    background-size: 70%;
+    background-position: center;
 }
 
+
+/* First project */
 .work-box:first-child {
     max-height: 400px;
     flex-basis: 100%;
@@ -212,7 +187,6 @@ h3 {
 .Project5 {
     background-image: url("../images/Project5.png");
 }
-
 
 .highlighted-text {
     font-weight: bolder;
