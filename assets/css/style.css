@@ -153,7 +153,8 @@ main {
 
 /* First project */
 .work-box:first-child {
-    max-height: 400px;
+    width: 200px;
+    max-height: 100%;
     flex-basis: 100%;
 }
 
@@ -169,10 +170,12 @@ h3 {
 }
 
 .Project1 {
-    background-image: url("../images/Project1.jpeg");
+    background-image: url("../images/Screen\ Shot\ 2023-08-17\ at\ 11.00.32\ PM.png");
+    width: 100px;
 }
 
-.Project2 {
+
+/* .Project2 {
     background-image: url("../images/Project2.jpeg");
 }
 
@@ -182,11 +185,11 @@ h3 {
 
 .Project4 {
     background-image: url("../images/Project4.jpeg");
-}
+} */
 
-.Project5 {
+/* .Project5 {
     background-image: url("../images/Project5.png");
-}
+} */
 
 .highlighted-text {
     font-weight: bolder;
