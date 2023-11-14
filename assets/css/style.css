@@ -137,8 +137,8 @@ main {
 }
 
 .work-box {
-    border: 3px solid #10381e;
-    background-color: #a4cae9;
+    border: 5px solid #10381e;
+    background-color: #f1f4f6;
     color: #000000;
     min-height: 150px;
     max-height: 150px;
@@ -166,12 +166,16 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: black;
+    color: rgb(0, 0, 0);
 }
+#name {
+    background-color: #10381e;;
+}
+
 
 .Project1 {
     background-image: url("../images/Screen\ Shot\ 2023-08-17\ at\ 11.00.32\ PM.png");
-    width: 100px;
+    background-size: 44%;
 }
 
 

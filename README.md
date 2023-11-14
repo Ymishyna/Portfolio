@@ -1,8 +1,7 @@
 # Portfolio
 
 ## Description
-Portfolio that is showcasing my skills and talents for a future employers that are looking to fill a part-time or full time position.
- It highlights my strongest work as well as the thought processes behind it. 
+Portfolio that is showcasing my skills and talents for a future employers that are looking to fill a part-time or full time position. It highlights my strongest work as well as the thought processes behind it. 
 
 ## User Story
 
@@ -37,3 +36,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation shows the web application's appearance and functionality:
 
 ![portfolio demo](./assets/images/demo.gif)
+
+## Links 
+
+![link to a live site](https://ymishyna.github.io/Portfolio/)
+
+
